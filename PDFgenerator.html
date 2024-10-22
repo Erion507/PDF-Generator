@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PDF Template Generator</title>
+  <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+  <h1>Upload PDF Template & Generate PDF</h1>
+
+  <div clas="container">
+  <div class="input-fields">
+    <label for="pdfUpload">Upload PDF Template:</label>
+    <input type="file" id="pdfUpload" class="button-upload" accept=".pdf">
+
+    <label for="nameInput">Enter Name:</label>
+    <input type="text" id="nameInput" placeholder="Enter Name">
+
+    <label for="serialInput">Enter Position:</label>
+    <input type="text" id="positionInput" placeholder="Enter Position">
+
+    <label for="dateInput">Enter Start Date:</label>
+    <input type="text" id="dateInput" placeholder="Enter Start Date">
+
+    <label for="departamentInput">Enter Departament:</label>
+    <input type="text" id="departamentInput" placeholder="Enter Departament">
+
+    <br><br>
+    <p>Equipment Details</p>
+    <br><br>
+
+    <label for="equipmentInput">Enter Equipment:</label>
+    <input type="text" id="equipmentInput" placeholder="Enter Equipment">
+
+    <label for="serialInput">Enter Serial Number:</label>
+    <input type="text" id="serialInput" placeholder="Enter Serial Number">
+
+    <label for="providedInput">Enter The Date Equipment provided:</label>
+    <input type="text" id="providedInput" placeholder="Enter the provided date">
+
+    <label for="conditionInput">Specify if New or Used Equipment:</label>
+    <input type="text" id="conditionInput" placeholder="Contition">
+    <br><br>
+    <lable for="pdfFileName">Enter PDF Name to Generate:</lable>
+    <input type="text" id="pdfFileName" placeholder="PDF Name...">
+
+    <button onclick="loadPDF()">Load PDF & Fill Data</button>
+    <button onclick="generatePDF()">Generate PDF</button>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
