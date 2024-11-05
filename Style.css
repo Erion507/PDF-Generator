@@ -6,15 +6,15 @@ body {
   input[type="file"],
   input[type="text"] {
     display: flex;
-    width: 50%;
+    width: 400px;
     padding: 10px;
     margin: 10px 0;
   }
 
-  .container {
+  /* .container {
       display: flex;
       justify-content: center;
-    }
+    } */
 
   button {
     padding: 10px 20px;
@@ -27,4 +27,15 @@ body {
   
   button:hover {
     background-color: #45a049;
+  }
+
+  .container-2 {
+    margin-left: 1000px;
+    margin-top: -310px;
+  }
+
+  .generate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }

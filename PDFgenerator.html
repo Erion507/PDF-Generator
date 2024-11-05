@@ -29,6 +29,8 @@
           placeholder="Enter Departament"
         />
       </div>
+    </div>
+      <div class="container-2">
         <div class="equ-det">
           <label for="equipmentInput">Enter Equipment:</label>
           <input
@@ -54,13 +56,15 @@
           <label for="conditionInput">Specify if New or Used Equipment:</label>
           <input type="text" id="conditionInput" placeholder="Contition" />
           <br /><br />
-          <lable for="pdfFileName">Enter PDF Name to Generate:</lable>
-          <input type="text" id="pdfFileName" placeholder="PDF Name..." />
-
-          <button onclick="loadPDF()">Load PDF & Fill Data</button>
-          <button onclick="generatePDF()">Generate PDF</button>
+        </div>
       </div>
-    </div>
+      
+      <div class="generate-container">
+        <lable for="pdfFileName">Enter PDF Name to Generate:</lable>
+        <input type="text" id="pdfFileName" placeholder="PDF Name..." />
+        <button onclick="loadPDF()">Load PDF & Fill Data</button>
+        <button onclick="generatePDF()">Generate PDF</button>
+      </div>
 
     <script src="script.js"></script>
   </body>
